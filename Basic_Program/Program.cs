@@ -10,6 +10,7 @@ namespace Basic_Program
             Console.WriteLine("Enter 2 for sub");
             Console.WriteLine("Enter 3 for mul");
             Console.WriteLine("Enter 4 for div");
+            Console.WriteLine("Enter 5 for fibnocii");
             int n = int.Parse(Console.ReadLine());
             switch(n)
             {
@@ -40,6 +41,14 @@ namespace Basic_Program
 
                     double res3 = _div.Div();
                     Console.WriteLine(res3);
+                    break;
+
+                case 5:
+                    fibonocci fi = new fibonocci();
+                    fi.Fibnocii();
+
+                   
+                    
 
                     break;
                     default:
